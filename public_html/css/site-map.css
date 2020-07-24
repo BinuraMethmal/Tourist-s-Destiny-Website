@@ -1,0 +1,38 @@
+rect {
+    fill: rgba(255, 255, 255, 0.9);
+    stroke-width: 3;
+    stroke: rgb(0, 0, 0);
+}
+
+a:hover {
+    text-shadow: 1px 1px 20px black;
+}
+
+path {
+    stroke-width: 2;
+    stroke: rgba(0, 0, 0, 1);
+    stroke-width: 3;
+}
+
+text {
+    font-size: 16px;
+}
+
+a {
+    fill: black;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 10px;
+    color: rgba(84, 65, 72, 1);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

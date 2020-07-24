@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    color: black;
+    display: flex;
+}
+
+.left-container {
+    margin-top: 5%;
+    padding: 1%;
+    width: 20%;
+    border: 1px solid black;
+    position: relative;
+    font-size: 20px;
+}
+
+.left-container #label-header {
+    color: red;
+    font-size: 50px;
+}
+
+.dropdown-container label {
+    position: relative;
+    top: 20px;
+}
+
+.dropdown-container select {
+    margin: 25px;
+    width: 80%;
+    font-size: 20px;
+}
+
+.right-container {
+    margin-top: 5%;
+    padding: 1%;
+    width: 80%;
+    border: 1px solid black;
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.forward {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.forward {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.forward:hover {
+    background-color: rgba(250, 250, 250, 0.6);
+}
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.sample-image {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.active,
+.sample-image:hover {
+    opacity: 1;
+}
+
+#image-title {
+    margin-bottom: 20px;
+}
+
+.image-description-container {
+    margin: 1%;
+}
+
+.image-description {
+    display: none;
+}
